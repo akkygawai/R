@@ -1,0 +1,16 @@
+# Transition matrix
+P <- matrix(c(0.7, 0.3,
+              0.4, 0.6),
+            nrow = 2, byrow = TRUE)
+
+# Initial probability distribution
+pi <- c(0.5, 0.5)
+
+# Iterate to stationary distribution
+for (i in 1:20) {
+  pi <- pi %*% P
+}
+
+# Display result
+cat("Stationary Distribution:\n")
+print(pi)
