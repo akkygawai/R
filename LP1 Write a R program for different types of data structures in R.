@@ -1,0 +1,24 @@
+# Vector
+v <- c(1, 2, 3, 4, 5)
+print("Vector:")
+print(v)
+# List
+l <- list("Fahad", 20, TRUE)
+print("List:")
+print(l)
+# Matrix
+m <- matrix(1:6, nrow=2, ncol=3)
+print("Matrix:")
+print(m)
+# Array
+a <- array(1:8, dim = c(2, 2, 2))
+print("Array:")
+print(a)
+# Data Frame
+d <- data.frame(Name=c("Fahad", "Sadan"), Age=c(20, 21))
+print("Data Frame:")
+print(d)
+# Factor
+f <- factor(c("Male", "Female", "Other"))
+print("Factor:")
+print(f)
