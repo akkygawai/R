@@ -1,0 +1,19 @@
+# Variables
+name <- "Fahad"
+age <- 20
+height <- 5.6
+student <- TRUE
+# Constant
+PI <- 3.14
+# Display values
+print(name)
+print(age)
+print(height)
+print(student)
+print(PI)
+# Display data types
+print(class(name))
+print(class(age))
+print(class(height))
+print(class(student))
+print(class(PI))
